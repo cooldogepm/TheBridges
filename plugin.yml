@@ -1,0 +1,21 @@
+name: TheBridge
+version: 0.0.1
+api: 4.0.0
+author: cooldogedev
+main: cooldogedev\TheBridge\TheBridge
+website: https://github.com/TheBridge/TheBridge
+description: "TheBridge minigame"
+permissions:
+  thebridge.subcommand.create:
+    default: op
+  thebridge.subcommand.delete:
+    default: op
+  thebridge.subcommand.list:
+    default: op
+  thebridge.subcommand.test:
+    default: op
+
+  thebridge.subcommand.join:
+    default: true
+  thebridge.subcommand.quit:
+    default: true

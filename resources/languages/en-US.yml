@@ -1,0 +1,92 @@
+---
+# Configuration version, don't edit this, this is a special token.
+### config-version: 0.0.1 ###
+
+# The messages that are displayed when a player joins/leaves a game.
+player:
+  join: "&7{player} &ehas joined! &e(&b{players_count}/{players_max}&e)"
+  quit: "&7{player} &ehas quit! &e(&b{players_count}/{players_max}&e)"
+
+# The messages that are displayed to players when the game ends.
+end:
+  title: "&l{team} WINS!"
+  subtitle: "&l{own_score} &7- {enemy_score}"
+  message: ""
+
+# The messages that are displayed to players in countdown phase.
+countdown:
+  start: "&eCountdown has started!"
+  stop: "&eCountdown has stopped!"
+  decrement: "&eThe game starts in &c{countdown} &esecond(s)!"
+
+# The messages that are displayed to players when a round starts.
+fight:
+  title: "&r&7&o"
+  subtitle: "&aFight!"
+  message: ""
+
+# The messages that are displayed to players when a round ends and before the first round.
+grace:
+  title: "{player} scored!"
+  subtitle: "&7Cages open in &a{countdown}s&7..."
+  message: ""
+
+# The command's information.
+command:
+  name: "thebridge"
+  aliases: [ "tb" ]
+  description: "TheBridge"
+
+death:
+  void: "{player} &7fell into the void."
+  knock: "{player} &7was knocked into the void by {attacker}&7."
+  slain: "{player} &7was killed by {attacker}&7."
+  shoot: "{player} &7was shot by {attacker}&7."
+  default: "{player} &7died."
+
+items:
+  quit-game: "&r&cQuit Game"
+  back-to-lobby: "&r&l&cBack to Lobby"
+  play-again: "&r&l&bPlay Again"
+
+# The formats of the messages that are displayed to players.
+chat:
+  match: "{player}: &f{message}"
+  end: "&7[SPECTATOR] {player}: {message}"
+
+# The scoreboard messages.
+scoreboard:
+  title: "&l&eTHE BRIDGE"
+  body:
+    idle:
+      - ""
+      - "Map: &a{map}"
+      - ""
+      - "Players: &a{players_count}"
+      - ""
+      - "Waiting..."
+      - ""
+      - "&ewww.fadhel.dev"
+    countdown:
+      - ""
+      - "Map: &a{map}"
+      - ""
+      - "Players: &a{players_count}"
+      - ""
+      - "Starting in &a{countdown}s"
+      - ""
+      - "&ewww.fadhel.dev"
+    match:
+      - ""
+      - "Time Left: &a{time_left}"
+      - ""
+      - "{own_score}"
+      - "{enemy_score}"
+      - ""
+      - "Kills: &a{kills}"
+      - "Goals: &a{goals}"
+      - ""
+      - "Mode: &a{mode}"
+      - ""
+      - "&ewww.fadhel.dev"
+...
