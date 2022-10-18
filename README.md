@@ -35,4 +35,4 @@
 
 #### Example
 
-`thebridge create name game-lobby game-world 30 600 24 5 10 solo`
+`thebridge create name game-lobby game-world 30 600 5 10 solo`
