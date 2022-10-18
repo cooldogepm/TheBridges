@@ -108,7 +108,7 @@ final class GameData
 
     public function getPlayersPerTeam(): int
     {
-        return match (ucfirst(strtolower($this->mode))) {
+        return match (ucwords(strtolower($this->mode))) {
             GameModes::GAME_MODE_DOUBLES => 2,
             GameModes::GAME_MODE_TRIOS => 3,
             GameModes::GAME_MODE_SQUADS => 4,
