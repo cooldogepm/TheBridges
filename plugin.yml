@@ -3,7 +3,7 @@ version: 0.0.1
 api: 4.0.0
 author: cooldogedev
 main: cooldogedev\TheBridge\TheBridge
-website: https://github.com/TheBridge/TheBridge
+website: https://github.com/cooldogedev/TheBridge
 description: "TheBridge minigame"
 permissions:
   thebridge.subcommand.create:
