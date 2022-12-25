@@ -5,4 +5,11 @@ branches:
 projects:
   TheBridges:
     path: ""
+    icon: "assets/icon.png"
+    libs:
+      - src: cooldogedev/libSQL/libSQL
+        version: ^0.1.2
+      - src: CortexPE/Commando/Commando
+        branch: PM4
+        version: ^3.0.0
 ...
